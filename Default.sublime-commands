@@ -1,0 +1,10 @@
+[
+    {
+		"caption":"WebFocus: Buscar en el Foro",
+		"command":"web_focus_busc_input"
+	},
+	{
+		"caption":"WebFocus: Buscar Texto Seleccionado",
+		"command":"web_focus_busc_seleccion"
+	}
+]
