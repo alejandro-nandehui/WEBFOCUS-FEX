@@ -1,0 +1,42 @@
+[
+	{
+        "id": "WebFocus",
+        "caption":"WebFocus",
+        "children":
+        [
+			{
+				"caption": "Ejecutar archivos",
+				"id":"WebFocus exe",
+				"children":
+				[
+					{
+						"command": "web_focus_exe_fex",
+                        "caption": "Fex"
+					},
+					{
+						"command": "web_focus_exe_html",
+                        "caption": "Html"
+					}
+				]
+				
+			},	
+				{
+					"caption": "Buscar en Foro",
+					"id": "WebFocus id",
+					"children" :
+					[
+						{
+							"caption":"Buscar en el Foro",
+							"command":"web_focus_busc_input"
+						},
+						{
+							"caption":"Buscar Texto Seleccionado",
+							"command":"web_focus_busc_seleccion"
+						}
+					]
+				}
+		
+		]
+		
+	}
+]
