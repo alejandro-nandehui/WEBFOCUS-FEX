@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>fex</string>
+	</array>
+	<key>name</key>
+	<string>WebFocus</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.numeric.fex</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.numeric.fex</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>***Todos los -SET -INCLUDE que etc que llevan '-'*****</string>
+			<key>end</key>
+			<string>\
+</string>
+			<key>match</key>
+			<string>((\-)[A-Za-z0-9_]+|(\()|(\))|\TABLE FILE|DEFINE FILE|FILEDEF|HEADING|FOOTING|CENTER\W|BOTTOM\W|DISK\W|APPEND|TABLE |AS |PTOA\W|LJUST\W|TRUNCATE\W|ARGLEN\W|SUBSTR\W|LOCASE\W|DECODE\W| EQ | OR |AND | IF |NE|GE|GT|LE|LT|IN\W|CONTAINS|OMITS|LW|THEN|GOTO|ELSE| FOR |MAX|CNT|TOTAL\W|HIGHEST\W|LOWEST\W|HOLD|FROM|JOIN|(LEFT OUTER)\W|^PRINT\W|^SUM\W|^END$|	COMPUTE\W|^ACROSS|^BY|^WHERE|NOPRINT$|\$|ENGINE SQLORA SET DEFAULT_CONNECTION|SQL SQLORA PREPARE|SELECT\W|WITH\W|^INNER |GROUP BY\W|ON\W)</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>\&amp;[A-Za-z0-9_.]</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>constant.numeric.fex</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>******Codigo Diverso Ampersand**********</string>
+			<key>end</key>
+			<string>\
+|[\&amp;A-Za-z0-9_.\w]*|\ </string>
+			<key>name</key>
+			<string>string.fex</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>'[A-Za-z0-9_().&lt;=&gt;/"\s\w]+|"[A-Za-z0-9_()&lt;=&gt;/'\s\w]+|'|"|/[\w\S]</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>constant.numeric.fex</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>******Codigo Diverso Comillas**********</string>
+			<key>end</key>
+			<string>\
+|'|"|\s|[\S\W]</string>
+			<key>name</key>
+			<string>string.fex</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>constant.numeric.fex</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>constant.control.fex</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>******Codigo Diverso en Morado**********</string>
+			<key>end</key>
+			<string>\
+|\</string>
+			<key>match</key>
+			<string>([A-Za-z0-9_.\w]+)</string>
+			<key>name</key>
+			<string>keyword.source.fex</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>comment.fex</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>in-line comment with #</string>
+			<key>match</key>
+			<string>(\-\*.*)</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.fex</string>
+	<key>uuid</key>
+	<string>7e53a832-8ed9-4dc3-aa2d-13d20d9efccd</string>
+</dict>
+</plist>
