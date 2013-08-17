@@ -1,4 +1,4 @@
 WEBFOCUS
 ========
 
-D
+Programa beta para WebFocus
