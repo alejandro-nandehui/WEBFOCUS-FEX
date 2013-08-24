@@ -1,4 +1,4 @@
 WEBFOCUS
 ========
 
-Programa beta para WebFocus
+Programa para programar los fex en webfocus
