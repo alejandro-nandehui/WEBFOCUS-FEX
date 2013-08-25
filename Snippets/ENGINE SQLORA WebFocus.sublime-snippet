@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+ENGINE SQLORA SET DEFAULT_CONNECTION CNX_${1:base}
+SQL SQLORA PREPARE ${2:tabla} FOR
+
+
+END
+-RUN
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ENGINE</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.fex</scope>
+</snippet>
