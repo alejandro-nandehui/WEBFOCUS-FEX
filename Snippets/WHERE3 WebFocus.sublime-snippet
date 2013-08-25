@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-WHERE RECORDLIMIT ${1:EQ} ${2:num};
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>WHERE3 RECORDLIMIT</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.fex</scope>
-</snippet>
