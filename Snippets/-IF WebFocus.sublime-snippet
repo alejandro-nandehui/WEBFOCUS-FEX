@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+-IF ${1:VAR1} EQ ${2:DEF1} THEN GOTO ${3:ET_OPC1} ELSE IF ${1:VAR1} EQ ${4:DEF2} THEN GOTO ${5:ET_OPC2} ELSE ${6:ET_OPC3};
+-**********Empieza Ciclo ${3:ET_OPC1}*************
+-${3:ET_OPC1}
+
+
+-GOTO ${7:ET_SALIDA}
+-**********Empieza Ciclo ${5:ET_OPC2}*************
+-${5:ET_OPC2}
+
+
+-GOTO ${7:ET_SALIDA}
+-**********Empieza Ciclo ${6:ET_OPC3}*************
+-${6:ET_OPC3}
+
+
+-GOTO ${7:ET_SALIDA}
+
+
+-**********Salida ${7:ET_SALIDA}*************
+-${7:ET_SALIDA}
+
+
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>IF</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+
+</snippet>
