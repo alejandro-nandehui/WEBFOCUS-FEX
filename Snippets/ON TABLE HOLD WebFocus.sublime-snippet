@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+ON TABLE HOLD AS ${1:HNOM1}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ON TABLE HOLD AS</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.fex</scope>
+</snippet>

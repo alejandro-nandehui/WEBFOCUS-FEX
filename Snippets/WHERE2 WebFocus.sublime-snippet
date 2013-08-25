@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+WHERE	(
+		  ${1:campo} ${2:oper} ${3:dato}) 
+		${4:oper} 
+		  (${5:campo} ${6:oper} ${7:dato}
+		);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>WHERE2</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.fex</scope>
+</snippet>

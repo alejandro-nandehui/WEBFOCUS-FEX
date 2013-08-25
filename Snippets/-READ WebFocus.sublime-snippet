@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${1:-}READ ${2:hold} &${3:var}.${4:fmt}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>READ</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.fex</scope>
+</snippet>
